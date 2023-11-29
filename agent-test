@@ -1,21 +1,27 @@
 
 ```
- -d '{
- "ids": [
-   "185417"
- ],
- "startTime": "2023-11-29T14:22:13.525Z",
- "endTime": "2023-11-29T14:22:13.525Z",
-     "agentIds": [
-       "71834",
-       "71726",
- ],
-     "targets": [
-       "71726",
-       "71834",
- ],
- "aggregate": true
-}' | jq .
+curl -X 'POST' \
+  'https://grpc.api.kentik.com/synthetics/v202202/results' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'X-CH-Auth-Email: ka.chan@rakuten.com' \
+  -H 'X-CH-Auth-API-Token: ilovekentik' \
+  -d '{
+  "ids": [
+    "185417"
+  ],
+  "startTime": "2023-11-29T14:22:13.525Z",
+  "endTime": "2023-11-29T14:22:13.525Z",
+      "agentIds": [
+        "71834",
+        "71726"
+  ],
+      "targets": [
+        "71834",
+        "71726"
+  ],
+  "aggregate": true
+}'
 ```
 
 
