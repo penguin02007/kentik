@@ -15,7 +15,7 @@
        "71834",
  ],
  "aggregate": true
-}' | jq --indent 7 .
+}' | jq .
 ```
 
 
