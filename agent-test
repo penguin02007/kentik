@@ -277,3 +277,263 @@
   ]
 }
 ```
+
+
+```
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3227  100  3042  100   185   6325    384 --:--:-- --:--:-- --:--:--  6779
+{
+  "results": [
+    {
+      "testId": "185417",
+      "health": "critical",
+      "agents": [
+        {
+          "agentId": "71726",
+          "health": "critical",
+          "tasks": [
+            {
+              "ping": {
+                "target": "100.93.135.121",
+                "packetLoss": {
+                  "current": 1,
+                  "health": "critical"
+                },
+                "latency": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "warning"
+                },
+                "jitter": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "healthy"
+                },
+                "dstIp": "100.93.135.121"
+              },
+              "health": "critical"
+            },
+            {
+              "ping": {
+                "target": "100.97.160.237",
+                "packetLoss": {
+                  "current": 1,
+                  "health": "critical"
+                },
+                "latency": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "warning"
+                },
+                "jitter": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "healthy"
+                },
+                "dstIp": "100.97.160.237"
+              },
+              "health": "critical"
+            },
+            {
+              "ping": {
+                "target": "104.241.204.20",
+                "packetLoss": {
+                  "current": 0,
+                  "health": "healthy"
+                },
+                "latency": {
+                  "current": 10746,
+                  "rollingAvg": 10838,
+                  "rollingStddev": 108,
+                  "health": "healthy"
+                },
+                "jitter": {
+                  "current": 118,
+                  "rollingAvg": 177,
+                  "rollingStddev": 216,
+                  "health": "healthy"
+                },
+                "dstIp": "104.241.204.20"
+              },
+              "health": "healthy"
+            },
+            {
+              "ping": {
+                "target": "100.107.129.181",
+                "packetLoss": {
+                  "current": 1,
+                  "health": "critical"
+                },
+                "latency": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "warning"
+                },
+                "jitter": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "healthy"
+                },
+                "dstIp": "100.107.129.181"
+              },
+              "health": "critical"
+            },
+            {
+              "ping": {
+                "target": "13.57.125.155",
+                "packetLoss": {
+                  "current": 0,
+                  "health": "healthy"
+                },
+                "latency": {
+                  "current": 74395,
+                  "rollingAvg": 74400,
+                  "rollingStddev": 116,
+                  "health": "healthy"
+                },
+                "jitter": {
+                  "current": 55,
+                  "rollingAvg": 144,
+                  "rollingStddev": 146,
+                  "health": "healthy"
+                },
+                "dstIp": "13.57.125.155"
+              },
+              "health": "healthy"
+            }
+          ]
+        },
+        {
+          "agentId": "71834",
+          "health": "healthy",
+          "tasks": [
+            {
+              "ping": {
+                "target": "104.241.204.4",
+                "packetLoss": {
+                  "current": 0,
+                  "health": "healthy"
+                },
+                "latency": {
+                  "current": 10773,
+                  "rollingAvg": 10812,
+                  "rollingStddev": 57,
+                  "health": "healthy"
+                },
+                "jitter": {
+                  "current": 65,
+                  "rollingAvg": 100,
+                  "rollingStddev": 33,
+                  "health": "healthy"
+                },
+                "dstIp": "104.241.204.4"
+              },
+              "health": "healthy"
+            },
+            {
+              "ping": {
+                "target": "100.93.135.121",
+                "packetLoss": {
+                  "current": 1,
+                  "health": "critical"
+                },
+                "latency": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "warning"
+                },
+                "jitter": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "healthy"
+                },
+                "dstIp": "100.93.135.121"
+              },
+              "health": "critical"
+            },
+            {
+              "ping": {
+                "target": "100.97.160.237",
+                "packetLoss": {
+                  "current": 1,
+                  "health": "critical"
+                },
+                "latency": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "warning"
+                },
+                "jitter": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "healthy"
+                },
+                "dstIp": "100.97.160.237"
+              },
+              "health": "critical"
+            },
+            {
+              "ping": {
+                "target": "100.107.129.181",
+                "packetLoss": {
+                  "current": 1,
+                  "health": "critical"
+                },
+                "latency": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "warning"
+                },
+                "jitter": {
+                  "current": 0,
+                  "rollingAvg": 0,
+                  "rollingStddev": 0,
+                  "health": "healthy"
+                },
+                "dstIp": "100.107.129.181"
+              },
+              "health": "critical"
+            },
+            {
+              "ping": {
+                "target": "13.57.125.155",
+                "packetLoss": {
+                  "current": 0,
+                  "health": "healthy"
+                },
+                "latency": {
+                  "current": 65333,
+                  "rollingAvg": 65393,
+                  "rollingStddev": 107,
+                  "health": "healthy"
+                },
+                "jitter": {
+                  "current": 57,
+                  "rollingAvg": 114,
+                  "rollingStddev": 121,
+                  "health": "healthy"
+                },
+                "dstIp": "13.57.125.155"
+              },
+              "health": "healthy"
+            }
+          ]
+        }
+      ],
+      "time": "2023-11-29T14:20:00Z"
+    }
+  ]
+}
+```
