@@ -1,3 +1,24 @@
+
+```
+ -d '{
+ "ids": [
+   "185417"
+ ],
+ "startTime": "2023-11-29T14:22:13.525Z",
+ "endTime": "2023-11-29T14:22:13.525Z",
+     "agentIds": [
+       "71834",
+       "71726",
+ ],
+     "targets": [
+       "71726",
+       "71834",
+ ],
+ "aggregate": true
+}' | jq --indent 7 .
+```
+
+
 ```
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
